@@ -30,7 +30,7 @@ const FriendsList = () => {
   let handleSubmit = () => {
     if (inputText !== "") {
       let object = {
-        id: list.length + 1,
+        id: new Date().getTime(),
         name: inputText,
         isFavourite: false
       };
