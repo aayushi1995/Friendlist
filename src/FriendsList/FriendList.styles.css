@@ -1,0 +1,115 @@
+.MainContainer {
+  margin: 5% 0px;
+}
+.Container {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  margin: 10% auto;
+  max-width: 500px;
+  text-align: left;
+  box-shadow: 0px 0px 19px 0px #c9cdd2ad;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Title {
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+.SearchBoxContainer {
+  width: 100%;
+  display: flex;
+  padding: 20px 0px;
+}
+.SearchBox {
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid darkgrey;
+  margin: 0px 10px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.SearchBox:focus {
+  outline-style: none;
+  box-shadow: none;
+  box-shadow: 0px 2px 4px 0px #d2ffd2b3;
+}
+.commonButtonStyle {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: none;
+}
+
+.AddFriendButton {
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  box-shadow: inset 0px 0px 7px 1px #24a20a;
+  background-color: #67c267;
+  font-size: 18px;
+  box-shadow: 5px 3px 16px #cfcfcf;
+}
+.AddFriendButton:hover {
+  box-shadow: inset 0px 0px 6px 7px #24a20a;
+  box-shadow: 5px 3px 16px #aaa8a8;
+}
+.FriendListContainer {
+  margin: 10px;
+}
+.FriendContainer {
+  box-shadow: 0px 0px 11px 0px #5353532b;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.FavouriteButton,
+.DeleteButton {
+  padding: 0px;
+  font-size: 20px;
+}
+.FriendButtonContainer button {
+  margin: 0px 10px;
+}
+.toast {
+  height: 25px;
+}
+
+.showToast {
+  margin: auto;
+  width: 500px;
+  color: black;
+  box-shadow: 1px 1px 9px 0px #eeeeee94;
+  transition: 3s;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  opacity: 1;
+  transition: 1s ease-in;
+}
+.removeToast {
+  margin: auto;
+  width: 500px;
+  color: black;
+  box-shadow: 1px 1px 9px 0px #eeeeee94;
+  transition: 3s;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 2s ease-out;
+}
+.GreenToast {
+  background-color: #72ff786b;
+}
+.RedToast {
+  background-color: #ff727290;
+}
